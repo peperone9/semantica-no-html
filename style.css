@@ -1,0 +1,43 @@
+
+html {
+    scroll-behavior: smooth; /*Faz o efeito de rolagem quando clica no item da seção*/
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Muda fonte*/
+    color: rgb(17, 17, 17); /* Muda a COR DA FONTE*/
+}
+/* Deixa as imagens uma do lado da outra*/
+section ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Layout das seções*/
+#roupas-femininas, #roupas-masculinas{
+    height: 100vh; /*Deixa cada seção ocupando toda a tela*/
+    margin: 0 200px; /*Margem das seções*/
+    margin-bottom: 50px; /*Espaçamento de uma seção para outra*/
+    background-color: #cecece; /*Cor de fundo das seções*/
+    padding: 10px; /*Espaçamento do conteúdo para dentro da seção*/
+    border-radius: 10px; /* Deixa redondinho a borda*/
+}
+
+/*Centraliza os titulos das seções*/
+#roupas-femininas h2 {
+    color: blueviolet;
+    text-align: center; 
+}
+
+#roupas-masculinas h2{
+    color: blue;
+    text-align: center;
+}
+
+/*Deixa todas as imagens com um unico tamanho*/
+img {
+    width: 200px;
+    height: 200px;
+}
